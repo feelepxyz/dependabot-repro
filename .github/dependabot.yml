@@ -1,42 +1,7 @@
 version: 2
 updates:
 - package-ecosystem: nuget
-  directory: "/src/BlobAssets"
-  schedule:
-    interval: daily
-  open-pull-requests-limit: 10
-- package-ecosystem: nuget
-  directory: "/src/Common"
-  schedule:
-    interval: daily
-  open-pull-requests-limit: 10
-- package-ecosystem: nuget
-  directory: "/src/CustomerStories"
-  schedule:
-    interval: daily
-  open-pull-requests-limit: 10
-- package-ecosystem: nuget
-  directory: "/src/DotnetFrameworkReleases"
-  schedule:
-    interval: daily
-  open-pull-requests-limit: 10
-- package-ecosystem: nuget
-  directory: "/src/EBooks"
-  schedule:
-    interval: daily
-  open-pull-requests-limit: 10
-- package-ecosystem: nuget
-  directory: "/src/LearnContent"
-  schedule:
-    interval: daily
-  open-pull-requests-limit: 10
-- package-ecosystem: nuget
-  directory: "/src/Uploader.DotnetCoreReleases"
-  schedule:
-    interval: daily
-  open-pull-requests-limit: 10
-- package-ecosystem: nuget
-  directory: "/src/Uploader.Resources"
+  directory: "/src/Dependabot"
   schedule:
     interval: daily
   open-pull-requests-limit: 10
