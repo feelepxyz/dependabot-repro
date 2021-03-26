@@ -1,0 +1,18 @@
+
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BlobAssets\BlobAssets.csproj" />
+    <ProjectReference Include="..\CustomerStories\CustomerStories.csproj" />
+    <ProjectReference Include="..\DotnetFrameworkReleases\DotnetFrameworkReleases.csproj" />
+    <ProjectReference Include="..\EBooks\EBooks.csproj" />
+    <ProjectReference Include="..\LearnContent\LearnContent.csproj" />
+    <ProjectReference Include="..\Uploader.DotnetCoreReleases\Uploader.DotnetCoreReleases.csproj" />
+    <ProjectReference Include="..\Uploader.Resources\Uploader.Resources.csproj" />
+  </ItemGroup>
+
+</Project>
